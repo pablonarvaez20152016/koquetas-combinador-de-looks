@@ -1,0 +1,44 @@
+[
+  {
+    "id": "negro",
+    "available": true,
+    "width": 836,
+    "height": 941
+  },
+  {
+    "id": "cafe-claro",
+    "available": true,
+    "width": 836,
+    "height": 941
+  },
+  {
+    "id": "vino-tinto",
+    "available": true,
+    "width": 836,
+    "height": 941
+  },
+  {
+    "id": "blazer-blanco",
+    "available": true,
+    "width": 835,
+    "height": 942
+  },
+  {
+    "id": "blazer-negro",
+    "available": true,
+    "width": 835,
+    "height": 941
+  },
+  {
+    "id": "blazer-rojo",
+    "available": true,
+    "width": 835,
+    "height": 941
+  },
+  {
+    "id": "blazer-rosado",
+    "available": true,
+    "width": 835,
+    "height": 942
+  }
+]

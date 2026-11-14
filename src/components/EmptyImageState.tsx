@@ -1,0 +1,1 @@
+export function EmptyImageState() { return <div className="empty-state" role="status"><span className="eyebrow">PRÓXIMAMENTE</span><p>Imágenes de esta combinación pendientes</p><small>Puedes explorar los otros colores mientras tanto.</small></div> }

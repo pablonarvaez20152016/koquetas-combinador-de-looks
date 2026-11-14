@@ -1,0 +1,36 @@
+.like-button { display: inline-flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 5px; min-height: 44px; padding: 7px 10px; border: 1px solid #a46076; border-radius: 20px; background: #fff7fa; color: #743349; font-size: 12px; }
+.like-button:hover { background: #f8e3eb; }
+.like-button:active { background: #efd0dc; }
+.like-button > span:first-child { font-size: 20px; line-height: 1; }
+.like-count { min-width: 18px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.admin-panel { max-width: 900px; margin: 24px auto; }
+.admin-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 24px; }
+.admin-heading a { font-size: 12px; color: #743349; }
+.admin-login { max-width: 340px; display: flex; flex-direction: column; gap: 12px; margin: 36px auto; }
+.admin-login p, .admin-login label { font-size: 14px; line-height: 1.5; }
+.admin-login input { width: 100%; min-height: 44px; padding: 10px 12px; border: 1px solid #a46076; border-radius: 6px; background: #fff; font: inherit; }
+.admin-login input:focus-visible { outline: 3px solid #8b344e; outline-offset: 3px; }
+.admin-login [role=alert] { color: #8b344e; margin: 0; }
+.admin-button { min-height: 44px; padding: 10px 18px; border: 1px solid #743349; border-radius: 6px; background: #743349; color: white; }
+.admin-button:disabled { opacity: .6; cursor: wait; }
+.desktop-voting { display: flex; padding: 24px 0 18px; }
+.desktop-voting > div { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.desktop-voting > div > span { font-size: 10px; letter-spacing: 1px; color: #9a7a62; }
+.preference-stats { border-top: 1px solid #e7dfd5; padding: 16px 0; }
+.preference-stats summary { cursor: pointer; color: #743349; font-size: 14px; padding: 8px 0; }
+.preference-stats summary > span { margin-left: 8px; font-size: 12px; color: #79685b; }
+.preference-stats details > p { font-size: 13px; line-height: 1.6; }
+.stats-note, .stats-storage-error { font-size: 11px; line-height: 1.6; color: #79685b; }
+.stats-storage-error { color: #8b344e; }
+.stats-table-wrapper { overflow-x: auto; }
+.preference-stats table { width: 100%; border-collapse: collapse; font-size: 12px; }
+.preference-stats caption { text-align: left; padding: 10px 0; color: #79685b; }
+.preference-stats th, .preference-stats td { padding: 10px 8px; border-bottom: 1px solid #e7dfd5; text-align: left; }
+.preference-stats tbody th { font-weight: 400; }
+.preference-stats th small { display: block; margin-top: 4px; color: #79685b; font-weight: 400; line-height: 1.5; }
+@media (max-width: 1023px) {
+  .desktop-voting { display: none; }
+  .look-descriptions > div { display: flex; flex-direction: column; align-items: stretch; padding-bottom: 8px; }
+  .look-descriptions p { margin-bottom: 20px; }
+  .look-descriptions .like-button { margin-top: auto; padding: 6px 3px; font-size: 10px; gap: 3px; }
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "negro",
+    "source": "seis look pantalon negro.png",
+    "mobileApproved": true
+  },
+  {
+    "id": "cafe-claro",
+    "source": "Seis looks pantalones cafe.png",
+    "mobileApproved": true
+  },
+  {
+    "id": "vino-tinto",
+    "source": "seis estilos pantalon cafe.png",
+    "mobileApproved": true
+  },
+  {
+    "id": "blazer-blanco",
+    "source": "Seis looks blaizer blanco.png",
+    "mobileApproved": true,
+    "generateDesktop": true
+  },
+  {
+    "id": "blazer-negro",
+    "source": "Seis looks blaizer negro.png",
+    "mobileApproved": true,
+    "generateDesktop": true
+  },
+  {
+    "id": "blazer-rojo",
+    "source": "Seis looks blaizer rojo.png",
+    "mobileApproved": true,
+    "generateDesktop": true
+  },
+  {
+    "id": "blazer-rosado",
+    "source": "Seis looks blaizer rosado.png",
+    "mobileApproved": true,
+    "generateDesktop": true
+  }
+]
